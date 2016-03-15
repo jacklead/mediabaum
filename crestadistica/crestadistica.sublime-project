@@ -1,0 +1,14 @@
+{
+    "folders":
+    [
+        {
+            "follow_symlinks": true,
+            "path": "/usr/local/devs/crestadistica/"
+        }
+    ],
+    "settings": {
+        "xdebug": {
+             "url": "http://crestadistica/test.php",
+        }
+    }
+}

@@ -1,0 +1,54 @@
+msgid ""
+msgstr "MIME-Version: 1.0\n"
+
+#. Name.
+msgid "Language Redirect"
+msgstr ""
+
+#. Short description.
+msgid "Redirects from the root site of a multisite project to a language specific network site."
+msgstr ""
+
+#. Screenshot description.
+msgid "Options"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "WordPress plugin which redirects from the root site of a multisite project to a language specific network site. The decision which language should be used is based in the browser language of the user which is usually sent as 'Accept-Language' header (PHP: $_SERVER['HTTP_ACCEPT_LANGUAGE'])."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The plugin provides a configuration page where supported languages, redirect targets and the default language can be configured."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The plugin should be activated only on the root site. Once redirected it is useless and shouldn't be active on the language specific network site."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The plugin is developed on <a href=\"https://github.com/bjoerne2/language-redirect\">Github</a>. Feel free to fork the project or create pull requests."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<em>This plugin was originally developed for <a href=\"http://www.monkkee.com/\">monkkee</a> and is inspired by <a href=\"http://oncleben31.cc\">oncleben31.cc</a></em>"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Upload plugin to the <code>/wp-content/plugins/</code> directory"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Activate the plugin through the 'Plugins' menu in WordPress"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Configure plugin (Settings -&gt; Language Redirect)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Handle missing HTTP_ACCEPT_LANGUAGE header, see <a href=\"https://wordpress.org/support/topic/undefined-index-http_accept_language\">https://wordpress.org/support/topic/undefined-index-http_accept_language</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Cleanup code to follow WP code conventions"
+msgstr ""

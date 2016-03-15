@@ -1,0 +1,17 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2016-01-29 11:43:36 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /usr/local/devs/crestadistica/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2016-01-29 11:43:36 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /usr/local/devs/crestadistica/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2016-01-29 11:43:45 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /usr/local/devs/crestadistica/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2016-01-29 11:43:45 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /usr/local/devs/crestadistica/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2016-01-29 11:43:49 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /usr/local/devs/crestadistica/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2016-01-29 11:43:51 --> 404 Page Not Found --> 
+ERROR - 2016-01-29 12:00:19 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /usr/local/devs/crestadistica/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2016-01-29 12:00:19 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /usr/local/devs/crestadistica/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2016-01-29 12:00:19 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /usr/local/devs/crestadistica/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2016-01-29 12:00:23 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /usr/local/devs/crestadistica/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2016-01-29 12:00:23 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /usr/local/devs/crestadistica/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2016-01-29 12:00:29 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /usr/local/devs/crestadistica/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2016-01-29 13:08:03 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /usr/local/devs/crestadistica/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2016-01-29 13:08:11 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /usr/local/devs/crestadistica/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2016-01-29 13:08:24 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /usr/local/devs/crestadistica/system/database/drivers/mysql/mysql_driver.php 91

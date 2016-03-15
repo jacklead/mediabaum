@@ -1,0 +1,118 @@
+Changelog - Affiliates Pro
+
+* 2.7.1
+
+  * Improved style loading.
+  * Fixed missing pagination class resource used in totals.
+  * Improved registration form so that first name and last name can be indicated directly instead of diverting to profile.
+  * Fixed a warning due to missing post when user is added on admin.
+  * Added the affiliates_user_registration_on_admin filter and now not recording user registration referrals unless it returns true when users are added on the admin back end.
+
+* 2.7.0
+
+  * Banner section added.
+  * [affiliates_banner] shortcode added.
+  * Affiliate URL generator and shortcode added: [affiliates_generate_url]
+  * Affiliate registration emails are now customizable.
+  * Fixed some notification message format issues (superfluous slashes).
+  * Fixed fatal error when referral notifications are not enabled.
+  * Added referral notification tokens.
+  * Added a totals export feature in addition to mass payment file generation.
+  * Registration form improved with first_name and last_name attributes added so that these fields can be made optional or hidden.
+  * Affiliate user notification filters added.
+  * Built-in User Registration Integration added, allows to record referrals when new users are referred by affiliates.
+  * Added filter affiliates_referral_amount_decimals.
+  * Added filter affiliates_referrals_display_currency.
+  * Added filter affiliates_referrals_display_total.
+  * Added filter affiliates_referrals_display_total_none.
+  * Improved and cleaned up the referrals screen by removing the Set buttons and reducing the status column footprint.
+
+* 2.6.0
+
+  * WordPress 3.9 compatibility checked
+  * Fixed the affiliate filter on the Referrals screen.
+  * Changed filter logic on Referrals screen for 3.9's prepare() nags.
+  * Changed filter logic on Visits & Referrals screen for 3.9's prepare() nags.
+  * Changed filter logic on Affiliates & Referrals screen for 3.9's prepare() nags.
+  * Fixed the affiliates_get_affiliates() function invoking prepare() when no parameters are needed.
+  * Added status filter on Affiliates & Referrals screen.
+  * Pretty affiliate links have been deprecated and won't be supported anymore.
+  * Removed/substituted old PHP4 constructors.
+  * Fixed day chart on affiliates overview screen when from date is given only.
+  * New updater
+  * Changed DB prepare usage when no parameters are supplied for 3.9.
+
+* 2.5.1
+
+  * Added the French translation (core only).
+  * Improved UI elements for filter sections.
+  * Improved UI for add/edit affiliate.
+
+* 2.5.0
+
+  * New dashboard widget added.
+  * New shortcode [affiliates_earnings] showing affiliate earnings per month.
+  * Fixed : the affiliate email filter was not cleared after pressing Clear
+
+* 2.4.4
+
+  * WordPress 3.8 compatibility checked
+  * Improved the Links column displayed in the Manage Affiliates section.
+  * Added option to display accumulated referral totals in the Manage Affiliates section (enabled by default).
+  * Fixed filter nonce checks in Manage Affiliates section.
+  * Improved filter labels in Manage Affiliates section.
+
+* 2.4.3
+
+  * Fixed missing translation domain on label in registration form.
+  * Fixed translation of submit button not taken into account.
+  * Added the affiliates_registration_profile_url filter.
+  * Added the affiliates_redirect_status_code filter.
+
+* 2.4.2
+
+  * fixed data title rendering with quotes for [affiliates_affiliate_stats]
+  * added captcha filters affiliates_captcha_get and affiliates_captcha_validate
+  * replaced use of deprecated ereg_replace with preg_replace
+  * added filters before and after registration form and error filter for validation
+  * Added new affiliate registration email filters: affiliates_admin_email, affiliates_new_affiliate_registration_subject, affiliates_new_affiliate_registration_message.
+
+* 2.4.1
+  * Improved URL parameter handling:
+    - filter acts late to add query var
+    - parameter is unset in $wp->query_vars to avoid ending up on the blog page
+
+* 2.4.0
+
+  * addded missing text domains on labels
+  * fixed some options not being saved under certain conditions
+  * fixed cookie expiration for 0 days
+  * GUI improvements (labels/checkboxes)
+  * GUI improvements (highlight active filters)
+  * Example contact form now produces a reference for referrals
+  * added affiliate email search filter
+  * improved hit recording (not querying robots when unused)
+  * added referral notifications by status
+  * added alternative admin email option for notifications
+  * fixed empty filters without clearing on affiliates screen
+
+* 2.3.3
+
+  * WordPress 3.5.2 compatibility tests passed
+  * fixed double-slashes in some resource URLs
+
+* 2.3.2
+
+  * added get/set affiliates coupons to attributes class
+  * added option to redirect after affiliate hit, now disabled by default
+  * added notification token filters
+
+* 2.3.1
+
+* fixed : not all translation files are loaded in Pro / Enterprise
+* added coupon hook affiliates_coupon_affiliate_id
+* added revised Italian translation by Roberto Castaldo (core)
+* added Polish translation (core/pro/ent)
+* added missing language domain on some labels
+* fixed using correct path for load_plugin_textdomain()
+* added the if_empty attribute to the [affiliates_referrals] shortcode
